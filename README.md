@@ -6,7 +6,7 @@ May be useful for self-study or creation of tasks for schoolchildren or students
 
 In the names of the files "u" denotes that this is an exercise, then comes the chapter number and number of exercises from the book. If there is no "u", it will most likely be some sample code from the book, often augmented.
 
-* **cpp** - с++ (some libSDL1.2). Exercises, two gaims (reversi, solitaire), console calculator. B. Stroustrup "The C++ Programming Language: Special Edition" (~2004)
+* **cpp** - с++ (some libSDL1.2). Exercises, two games (reversi, solitaire), console calculator. B. Stroustrup "The C++ Programming Language: Special Edition" (~2004)
 * **comp_gr** - c, OpenGL. Samples and exercises. Edward Angel "Interactive Computer Graphics. A top-down approach with OpenGL"
 * **opengl** - c, OpenGL. I don't remember the book or tutorials where these examples came from
 * **script** - bash. Samples and exercises. Mendel Cooper "Advanced Bash-Scripting Guide"

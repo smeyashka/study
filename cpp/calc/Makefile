@@ -1,5 +1,6 @@
 CXXFLAGS= -c  -Wall #-O2
-LDFLAGS=-L. -lcalc
+#LDFLAGS=-L. -lcalc
+LDFLAGS=
 CC=g++
 CALC=arithm.cpp lexer.cpp table.cpp parser.cpp
 HEAD=arithm.h lexer.h error.h table.h parser.h parser_impl.h driver.h

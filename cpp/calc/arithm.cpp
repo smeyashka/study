@@ -11,7 +11,7 @@ void Arithm::plus(double *slag1, double slag2)
     minus(slag1, -slag2);
   }
   else if (*slag1 < 0 && slag2 > 0) {
-    *slag1+=slag2;
+    *slag1 += slag2;
   }
   else {
     if (numeric_limits<double>::max() - fabs(*slag1) > fabs(slag2)) {
@@ -24,10 +24,10 @@ void Arithm::plus(double *slag1, double slag2)
 void Arithm::minus(double *slag1, double slag2)
 {
   if (*slag1 > 0 && slag2 < 0) {
-    plus(slag1,-slag2);
+    plus(slag1, -slag2);
   }
   else if (*slag1 < 0 && slag2 > 0) {
-    plus(slag1,-slag2);
+    plus(slag1, -slag2);
   }
   else {
     if (-numeric_limits<double>::max() + fabs(slag2) < fabs(*slag1)) {

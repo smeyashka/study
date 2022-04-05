@@ -9,7 +9,7 @@
 
 Funcser::LI Funcser::find_func(const string& name)
 {
-  cerr << name;
+  //cerr << name;
   for (LI it = func.begin(); it != func.end(); ++it) {
     func_type& f = *it; 
     if (name == f.func_name) {

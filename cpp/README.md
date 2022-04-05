@@ -4,7 +4,7 @@ The final calculator program running through Stroustrup's book.
 
 Very simple but supports arithmetic operations, some math constants and basic functions.
 
-![screen](./cpp/screenshot/calc.png)
+![screen](./screenshot/calc.png)
 
 ## reversi
 
@@ -24,10 +24,10 @@ Usage: ./reversi <--server|--client> -i <ip> -p <port>
 -p <port> - port
 -h,--help - this help
 ```
-![local](./cpp/screenshot/reversi.gif)
+![local](./screenshot/reversi.gif)
 
 
 ## solitaire
 The fourth exercise of the seventeenth chapter :)
 
-![local](./cpp/screenshot/solitaire.png)
+![local](./screenshot/solitaire.png)

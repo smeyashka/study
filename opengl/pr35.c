@@ -4,7 +4,7 @@
 void display()
 {
   GLdouble eqn[4] = {0.0, 1.0, 0.0, 0.0};
-  GLdouble eqn2[4] = {1.0, 0.0, 0.0, 0.0};
+  // GLdouble eqn2[4] = {1.0, 0.0, 0.0, 0.0};
   glClear(GL_COLOR_BUFFER_BIT);
   glColor3f(0.0, 0.2, 1.0);
   glPushMatrix();

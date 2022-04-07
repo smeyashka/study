@@ -87,7 +87,7 @@ void top_menu(int id)
 
 int main(int argc, char **argv)
 {
-  int id;
+  //  int id;
   short sub_menu;
 
   glutInit(&argc, argv);

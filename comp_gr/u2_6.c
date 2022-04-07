@@ -81,7 +81,7 @@ point2 vertice(point2 v1,point2 v2) //возвр. вершину на перес
 void new_points(point2 v1, point2 v2, point2 v_new[3], int k) //правило замены прямой на кривую
 {
   point2 v_tmp;
-  float ugol1, ugol2, dlina; 
+  /*float ugol1, ugol2, dlina; */
   point2 v_n[3];
 
   if (k > 0) {
@@ -92,8 +92,8 @@ void new_points(point2 v1, point2 v2, point2 v_new[3], int k) //правило �
     v_new[1].x = v2.x - v_tmp.x;
     v_new[1].y = v2.y - v_tmp.y;
     
-    dlina = sqrt((v_new[0].x - v_new[1].x) * (v_new[0].x - v_new[1].x) +
-		 (v_new[0].y - v_new[1].y)*(v_new[0].y - v_new[1].y));
+    /* dlina = sqrt((v_new[0].x - v_new[1].x) * (v_new[0].x - v_new[1].x) + */
+    /* 		 (v_new[0].y - v_new[1].y)*(v_new[0].y - v_new[1].y)); */
 
     v_new[2] = vertice(v_new[0], v_new[1]);
     
@@ -112,7 +112,7 @@ void new_points(point2 v1, point2 v2, point2 v_new[3], int k) //правило �
 
 void display()
 {
-  float ugol1, ugol2;
+  //  float ugol1, ugol2;
 
   point2 v[3] = {{10, 10}, {70, 10}, {40, 60}};
   point2 v1[3] = {{0,0}, {0,0}, {0,0}};
@@ -141,7 +141,8 @@ int main(int argc, char **argv)
   
   glutInit(&argc, argv);
   glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-  glutInitWindowSize(800, 800);
+  //  glutInitWindowSize(800, 800);
+  glutInitWindowSize(400, 400);
   glutCreateWindow("Koch snowflake");
   glutDisplayFunc(display);
   glutReshapeFunc(reshape);

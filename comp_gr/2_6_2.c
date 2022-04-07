@@ -25,7 +25,7 @@ void myinit()
 void display()
 {
   int rand();
-  int i, k;
+  int k;
 
   glClear(GL_COLOR_BUFFER_BIT);
   for (k = 0; k < 50000; k++) {
@@ -37,7 +37,7 @@ void display()
     glBegin(GL_POINTS);
     glColor3f(p[0]/25.0, p[1]/25.0, p[2]/25.0);
     glVertex3fv(p);
-    glEnd;
+    glEnd();
   }
   glFlush();
 }

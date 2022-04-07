@@ -16,13 +16,13 @@ void display()
   typedef GLfloat point2[2] ;
 
   point2 vertices[3] = {{0.0, 0.0}, {250.0, 500.0}, {500.0, 0.0}};
-  int i, j, k;
+  int j, k;
   rand();
   point2 p = {75.0, 75.0};
 
   glClear(GL_COLOR_BUFFER_BIT);
 
-  for (k=0;k<8000;k++) {
+  for (k = 0; k< 8000; k++) {
     j = rand()%3;
 
     p[0] = (p[0]+vertices[j][0])/2.0;
@@ -30,7 +30,7 @@ void display()
 
     glBegin(GL_POINTS);
     glVertex2fv(p);
-    glEnd;
+    glEnd();
   }
   glFlush();
 }

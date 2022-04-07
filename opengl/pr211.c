@@ -7,7 +7,7 @@ static GLushort bottomIndices[] = {0, 1, 5, 4};
 static GLushort backIndices[] = {0, 3, 2, 1};
 static GLushort leftIndices[] = {0, 4, 7, 3};
 static GLushort topIndices[]  = {2, 3, 7, 6};
-static GLushort allIndices[]  = {4, 5, 6, 7, 1, 2, 6, 5, 0, 1, 5, 4, 0, 3, 2, 1, 0, 4, 7, 3, 2, 3, 7, 6}; 
+//static GLushort allIndices[]  = {4, 5, 6, 7, 1, 2, 6, 5, 0, 1, 5, 4, 0, 3, 2, 1, 0, 4, 7, 3, 2, 3, 7, 6}; 
 
 /* static GLshort vertices[]={1, 1, 0, */
 /* 			  5, 1, 0, */
@@ -66,7 +66,7 @@ void display()
  glColor3f(0.5, 0.5, 0.0);
  glDrawElements(GL_QUADS, 4, GL_UNSIGNED_SHORT, rightIndices);
 
-// glDrawElements(GL_QUADS, 24, GL_UNSIGNED_SHORT, allIndices);
+ // glDrawElements(GL_QUADS, 24, GL_UNSIGNED_SHORT, allIndices);
 
 /*  short i; */
 /*  glBegin(GL_POLYGON); */

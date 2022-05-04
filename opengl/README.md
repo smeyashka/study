@@ -5,7 +5,7 @@
 
 **pr13.c**
 
-<img src="./screenshot/pr13.png" width="300" height="300">
+<img src="./screenshot/pr13.gif" width="300" height="300">
 
 **pr210.c**
 

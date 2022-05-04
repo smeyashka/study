@@ -10,12 +10,14 @@ In the names of the files "u" denotes that this is an exercise, then comes the c
 * **comp_gr** - c, OpenGL. Samples and exercises. Edward Angel "Interactive Computer Graphics. A top-down approach with OpenGL"
 * **opengl** - c, OpenGL. I don't remember the book or tutorials where these examples came from
 * **script** - bash. Samples and exercises. Mendel Cooper "Advanced Bash-Scripting Guide"
-* **weather_satellites** - Jupyter Notebook, Python, example of practical exercises for students studying satellite meteorology
 
+This code is more recentthis code is more recent
+* **weather_satellites** - Jupyter Notebook, Python, example of practical exercises for students studying satellite meteorology
+* **network** - client-server application (c++, STL, boost)
 
 ____
 
-Нашла на компе упражнения, которые делала, когда училась программировать. В основном это код, написанный 2000-2005 годах. Выложу постепенно, немного почистив, проверив, чтоб компилировалось современным гцц, но в целом сохранив структуру. 
+Нашла на компе упражнения, которые делала, когда училась программировать. В основном это код, написанный 2000-2005 годах. Выложу постепенно, немного почистив, проверив, чтоб компилировалось современным gcc, но в целом сохранив структуру. 
 
 Может кому пригодятся для самообучения или создания заданий для школьников или студентов. Код может быть не самым красивым, не самым оптимальным, но рабочим, делала, как умела))
 
@@ -25,4 +27,7 @@ ____
 * **comp_gr** - c, OpenGL. Энджэл Эдвард "Интерактивная компьютерная графика. Вводный курс на базе OpenGL"
 * **opengl** - c, OpenGL. Я не помню книгу или туториалы откуда эти примеры
 * **script** - bash. Samples and exercises. Mendel Cooper "Advanced Bash-Scripting Guide"
+
+Это посвежее
 * **weather_satellites** - пример практических заданий для студентов, изучающих спутниковую метеорологию
+* **network** - клиент-серверное приложение (c++, STL, boost)

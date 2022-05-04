@@ -1,0 +1,6 @@
+{
+  "tree" : "green", 
+  "grass" : "yellow",
+  "mushrooms" : 10,
+  "bears" : 1
+}

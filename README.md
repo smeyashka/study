@@ -11,9 +11,10 @@ In the names of the files "u" denotes that this is an exercise, then comes the c
 * **opengl** - c, OpenGL. I don't remember the book or tutorials where these examples came from
 * **script** - bash. Samples and exercises. Mendel Cooper "Advanced Bash-Scripting Guide"
 
-This code is more recentthis code is more recent
+This code is more recent:
 * **weather_satellites** - Jupyter Notebook, Python, example of practical exercises for students studying satellite meteorology
 * **network** - client-server application (c++, STL, boost)
+* **terminal** - trade terminal imitation (c++, Qt, gui)
 
 ____
 
@@ -28,6 +29,7 @@ ____
 * **opengl** - c, OpenGL. Я не помню книгу или туториалы откуда эти примеры
 * **script** - bash. Samples and exercises. Mendel Cooper "Advanced Bash-Scripting Guide"
 
-Это посвежее
+Это посвежее:
 * **weather_satellites** - пример практических заданий для студентов, изучающих спутниковую метеорологию
 * **network** - клиент-серверное приложение (c++, STL, boost)
+* **terminal** - имитация торгового терминала (c++, Qt, gui)
